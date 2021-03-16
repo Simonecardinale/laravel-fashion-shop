@@ -13,7 +13,6 @@ class HomeController extends Controller
     }
     public function dress() {
         $data_vestiti = Dress::all();
-        dd($data_vestiti);
         $data = ['shop_vestiti' => $data_vestiti];
         return view('vestiti', $data);
     }
