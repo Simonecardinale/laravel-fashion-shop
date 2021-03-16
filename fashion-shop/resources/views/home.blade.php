@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Ciao</h1>
-    <h2>{{ $saluto }}</h2>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+    <div class="container flex-column jumbotron d-flex justify-content-center align-items-center" >
+        <h1>Benvenuto nel nostro e-commerce di abbigliamento!</h1>
+        <img src="https://cdn.pixabay.com/photo/2017/08/06/22/52/blouse-2597205__340.jpg" alt="">
+    </div>
+@endsection
